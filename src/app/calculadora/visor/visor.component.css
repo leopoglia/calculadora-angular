@@ -1,0 +1,38 @@
+*{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+  user-select: none;
+}
+#visor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 400px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(15, 175, 0);
+}
+
+.botao{
+  position: absolute;
+  margin-top: 341px !important;
+  margin-left: 299px !important;
+  width: 70px;
+  height: 70px;
+  margin: 7px;
+  border-radius: 5px;
+  background-color: rgb(65, 65, 65);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid transparent;
+  cursor: pointer;
+}
+
+.botao:hover{
+  border: 4px solid rgb(45, 45, 45);
+}
